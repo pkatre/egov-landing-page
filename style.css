@@ -1,0 +1,93 @@
+body{
+  font-family: "DM Sans", sans-serif;
+}
+
+.hero{
+  padding: 100px 0;
+  background:#f3f9ff;
+}
+.hero-heaading{
+    font-size: 32px;
+}
+.hero-content{
+    font-size: 20px;
+}
+.btn {
+    border-radius: 20px;
+}
+.approach-section{
+    margin: 0 80px;
+  background:white;
+ box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 16px;
+}
+
+.approach-left h3{
+  font-size:28px;
+  line-height:1.4;
+}
+
+.approach-left .bold{
+  font-weight:700;
+}
+
+.pill-list{
+  display:flex;
+  flex-direction:column;
+  gap:12px;
+}
+
+.pill{
+  border:1px solid #d6e6f5;
+  background:#fff;
+  padding:10px 16px;
+  border-radius:30px;
+  text-align:left;
+  font-weight:500;
+}
+
+.highlight-card{
+  border-radius:16px;
+  overflow:hidden;
+  background:#e9f4fb;
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+}
+
+.highlight-card.blue{
+  background:#1e88e5;
+}
+
+.highlight-card h2{
+  font-size:36px;
+  font-weight:700;
+}
+
+.highlight-card a{
+  text-decoration:none;
+  font-weight:600;
+}
+
+.stats{
+  background:#0d3b66;
+  padding:60px 0;
+}
+
+.approach .card{
+  border-radius:12px;
+  transition:0.3s;
+}
+.approach .card:hover{
+  transform:translateY(-6px);
+  box-shadow:0 10px 20px rgba(0,0,0,0.1);
+}
+
+.cta{
+  background:#0d3b66;
+  padding:80px 0;
+}
+
+.footer{
+  background:#f1f1f1;
+}
